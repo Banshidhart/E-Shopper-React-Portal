@@ -1,7 +1,7 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 export default function Login() {
+  document.title = "LogIn | E-Shopper";
   return (
     <>
       <section id="form">

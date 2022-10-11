@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 export default function CheckOut() {
+  document.title = "CheckOut | E-Shopper";
   return (
     <>
       <section id="cart_items">

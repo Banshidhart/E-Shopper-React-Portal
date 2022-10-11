@@ -2,9 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 export default function Error() {
-  {
-    document.title = "Error | E-Shopper";
-  }
+  document.title = "Error | E-Shopper";
   return (
     <div className="container text-center">
       <div className="logo-404">

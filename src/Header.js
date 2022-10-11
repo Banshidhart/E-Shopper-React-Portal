@@ -2,9 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 export default function Header() {
-  {
-    document.title = window.location.pathname.split("/")[1] + " | E-Shopper";
-  }
   return (
     <header id="header">
       <div className="header_top">
