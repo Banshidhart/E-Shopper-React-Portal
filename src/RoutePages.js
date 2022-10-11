@@ -16,8 +16,8 @@ import Shop from "./Shop";
 export default function RoutePages() {
   return (
     <>
-      {/* <Header /> */}
       <BrowserRouter>
+        <Header />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/Home" element={<Home />} />
@@ -31,9 +31,8 @@ export default function RoutePages() {
           <Route path="/BlogSingle" element={<BlogSingle />} />
           <Route path="/ProductDetails" element={<ProductDetails />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
-
-      {/* <Footer /> */}
     </>
   );
 }
